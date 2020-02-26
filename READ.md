@@ -303,8 +303,6 @@ map k/v as 'DIRS':[os.path.join(BASE_DIR, 'templates')]  in Varibal called TEMPL
 
 plz open QsPy/QsPy/settings.py
 
-<http://192.168.200.24:10080/QC-109/qsdjango/blob/master/QsPy/QsPy/settings.py>
-
 static (全小寫無複數s) 目錄儲存 local 的 image, CSS, JS files
 
 ctrl+f to serach the STATIC_URL = '/static/' this phrase,
@@ -341,8 +339,6 @@ such as 'zh-Hant' & 'Asia/Taipei'
 
 plz go into bottom level project folder as QsPy/QsPy
 and cd to urls.py
-
-<http://192.168.200.24:10080/QC-109/qsdjango/blob/master/QsPy/QsPy/urls.py>
 
 using tools called django.urls.path, it plays role as Router in Web app
 
