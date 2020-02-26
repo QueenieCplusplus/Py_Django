@@ -531,10 +531,3 @@ to render UI, there are many steps to do it, this the modified file structure in
         STATICFILES_DIRS = [
             os.path.join(BASE_DIR, 'static'),
         ] 
-
-# pass Param in {{}} thru Html
-
-Example:
-
-<http://192.168.200.24:10080/QC-109/qsdjango/commit/fd60a069aae0e068e3cae9bf818ad34ae077d66f>
-
