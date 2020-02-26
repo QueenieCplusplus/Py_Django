@@ -1,7 +1,4 @@
 # QsDjangok
-# Let's make a try ~
-
-![django](https://cf-assets2.tenlong.com.tw/products/images/000/123/927/original/413uHLT33KL.jpg?1536666201)
 
 # To Check Python Engine
 
