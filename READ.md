@@ -1,5 +1,4 @@
-# QsDjango
-# Today is my 11 days in concords, wish I can do a web site using django framework.
+# QsDjangok
 # Let's make a try ~
 
 ![django](https://cf-assets2.tenlong.com.tw/products/images/000/123/927/original/413uHLT33KL.jpg?1536666201)
