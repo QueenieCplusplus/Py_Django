@@ -51,7 +51,7 @@ C:\Users\109009>mkvirtualenv QsEnv
     $pip3 install django
 
 > add this path to 'PATH'
- 'C:\Users\109009\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\Scripts'
+ 'C:\Users\Queen\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\Scripts'
 
 ????? Question3 issued ?????
 >
@@ -96,7 +96,7 @@ if you use windows 10, and use 中文版本, then ->
 
     rmvirtualenv name_of_environment — 刪除指定的環境
 
-    C:\Users\109009\Envs\Queens> there are a Project called QsPy
+    C:\Users\Queen\Envs\Queens> there are a Project called QsPy
 
 # To Create a Project
 
@@ -106,7 +106,7 @@ if you use windows 10, and use 中文版本, then ->
 
     $cd < project name >
 
-    C:\Users\109009\Envs\Queens> there are a Project called QsPy
+    C:\Users\Queen\Envs\Queens> there are a Project called QsPy
 
 > C:\Users\109009\AppData\Local\Programs\Python\Python38-32\python.exe: No module named QsPy.__main__; 'QsPy' is a package and cannot be directly executed
 
@@ -262,8 +262,6 @@ will see how successful you are!
 
 plz open QsPy/QsPy/settings.py
 
-<http://192.168.200.24:10080/QC-109/qsdjango/blob/master/QsPy/QsPy/settings.py>
-
 add value '<app name>' in below Varibale called INSTALLED_APPS
 
         INSTALLED_APPS = [
@@ -324,8 +322,6 @@ and add code line as below:
 
 plz open QsPy/QsPy/settings.py
 
-<http://192.168.200.24:10080/QC-109/qsdjango/blob/master/QsPy/QsPy/settings.py>
-
 add value to the Variable called TIME_ZONE & LANGUAGE_CODE
 
 such as 'zh-Hant' & 'Asia/Taipei'
@@ -373,7 +369,6 @@ using tools called django.urls.path, it plays role as Router in Web app
 
 go to <app folder>/views.py
 
-<http://192.168.200.24:10080/QC-109/qsdjango/blob/master/QsPy/QueenPy/views.py>
 
         from django.shortcuts import render
         from django.http import HttpResponse
@@ -383,9 +378,6 @@ go to <app folder>/views.py
             return HttpResponse("haha, you must like cat as me. Miao~")
 
 # Add Html File under templates Module
-
-Example: 
-<http://192.168.200.24:10080/QC-109/qsdjango/commit/c5c2e23cc0923a10d7d3944e0ec3ec2166d23625>
 
 to render UI, there are many steps to do it, this the modified file in stucture =>
 
@@ -469,12 +461,6 @@ the 3rd param is callback of locals() method, to pass local variables
 
 
 # Add Image & CSS File under static Module
-
-Example:
-
-<http://192.168.200.24:10080/QC-109/qsdjango/commit/0b63136198adc0b650b64d9a22c472894bc902c3>
-
-<http://192.168.200.24:10080/QC-109/qsdjango/commit/180b0a41eac389a94c42f4e9001e52025f397397>
 
 to render UI, there are many steps to do it, this the modified file structure in stucture =>
 
